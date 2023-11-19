@@ -1,0 +1,58 @@
+.carina-card {
+    width: 600px; /* Ширина вашего блока */
+    height: 400px; /* Высота вашего блока */
+}
+body, h1, div {
+    margin: 0;
+    color: #FFF;
+    user-select: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота экрана */
+    margin: 0;
+    background: black;
+}
+
+.love-card {
+    display: inline-flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.button {
+    background: #5685FF;
+    border: 0px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+}
+
+button:hover {
+    background: #1a5bff;
+    animation: colorChange 0.5s ease;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: #5685FF;
+    }
+    to {
+        background-color: #1a5bff;
+    }
+}
